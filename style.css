@@ -110,31 +110,4 @@ body{
 .mobile{
     display: none;
 }
-@media screen and (max-width:1440px){
-    .mj-inner-container{
-        transform: scale(0.7);
-    }
-}
-@media screen and (max-width:800px){
-    .mj-inner-container{
-        transform: scale(0.6);
-    }
-}
-@media screen and (max-width:600px){
-    .mj-inner-container{
-        transform: scale(0.5);
-    }
-}
-@media screen and (max-width:375px){
-    .mj-inner-container{
-        display: flex; 
-		flex-direction: column;
-        justify-content: center;
-    }
-    .mobile{
-        display: block;
-    }
-    .desktop{
-        display: none;
-    }
-}
+
